@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width= device width, initial-scale=1.0">
+        <title>Creative Idea-Explore Human Computer Interaction (HCI)</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" 
+    rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/1015914bbb.js" crossorigin="anonymous"></script>
+    </head> 
+    <body>
+        <section class="header">
+                <nav>
+                    <a href="index.html"><img src="images/logo.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html#topic">Topics</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                            <li><a href="about.html">About</a></li>  
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>         
+                </nav>
+            
+<div class="text-box" id="text-box">
+    <h1>What is Human Computer Interaction (HCI)?</h1>
+    <p>Human-computer interaction (HCI) is a multidisciplinary field of study focusing
+    on the design<br> of computer technology and, in particular, the interaction between humans
+    (the users) <br>and computers. While initially concerned with computers, HCI has since expanded to cover<br> almost 
+    all forms of information technology design.
+    </p>
+    <a href="https://www.interaction-design.org/literature/topics/human-computer-interaction" class="hero-btn">Learn More</a>
+</div>
+        </section>
+
+<!-----------Topics--------->
+
+<section class="topic" id="topic">
+    <h1>EXPLORE</h1>
+    <p>Learn more things about Human Computer Interaction.</p>
+
+    <div class="row">
+            <div class="topic-1">
+                <a href="hci.html" type="button" class="cta"><h3>Human Computer Interaction</h3></a>
+                <p>Is the study, design and implementation of sofware to be used diractlty with general individuals. These systemare called
+                    a 'User Interface' (UI, this is how a human will interact with a computer.)
+                </p>
+            </div>
+            <div class="topic-2">
+                <a href="cognitive.html" type="button" class="cta"><h3>Cognitive Model and HCI Approaches</h3></a>
+                <p>Cognitive Approach. The cognitive approach to human-computer interaction considers the abilities of the human brain and 
+                    sensory-perception in order to develop a user interface that will support the end user.
+                </p>
+            </div>
+            <div class="topic-3">
+                <a href="uce.html" type="button" class="cta"><h3>User Centered<br> Evaluation</h3></a>
+                <p>User-Centered Evaluation (UCE) is defined as an empirical evaluation obtained by assessing user performance and user 
+                    attitudes toward a system, by gathering subjective user feedback on effectiveness and satisfaction, quality of work,
+                    support and training costs or user health and well-being.
+                </p>
+            </div>
+            <div class="topic-4">
+                <a href="effective ui.html" type="button" class="cta"><h3>Designing and Developing Effectiveness Interfaces</h3></a>
+                <p>User Interface (UI) Design focuses on anticipating what users might need to do and ensuring that the interface has
+                    elements that are easy to access, understand, and use to facilitate those actions.
+                </p>
+             </div>
+    </div>
+</section>
+
+<!---------Contacts--------->
+
+<section class="contact" id="contact">
+    <h1>K E E P<br>L E A R N I N G ! ! !</h1>
+    <a href="contactme.html" class="hero-btn">CONTACT ME</a>
+</section>
+
+
+<!--------About Footer--------->
+<section class="about">
+    <p>About Me<br>Just click the icons to know more about me ! <i class="fa fa-heart"></i> </p>
+    <div class="icons">
+       <a href="https://www.facebook.com/vntgnhn"> <i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/vn_tgnhn/"><i class="fa fa-instagram"></i></a>
+        <a href="https://youtube.com/channel/UCBGOyn8HsbBLXvWCQvpYsHA"><i class="fa fa-youtube"></i></a>
+    </div>
+    <p>&copy; Copyright 2022 Ivan Taganahn (JHCSC-PAGADIAN CAMPUS). All right Reserved.</p>
+</section>
+
+<!--------JavaScript for Toggle Menu------->
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
